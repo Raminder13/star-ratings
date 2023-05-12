@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/star-ratings/static/css/main.5486447e.css",
+    "main.js": "/star-ratings/static/js/main.8d07a3da.js",
+    "index.html": "/star-ratings/index.html",
+    "main.5486447e.css.map": "/star-ratings/static/css/main.5486447e.css.map",
+    "main.8d07a3da.js.map": "/star-ratings/static/js/main.8d07a3da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5486447e.css",
+    "static/js/main.8d07a3da.js"
+  ]
+}
