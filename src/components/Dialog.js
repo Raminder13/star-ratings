@@ -1,14 +1,19 @@
 import React from 'react';
+import '../styles/index.css';
 
-function Dialog(props) {
-  const { onClose = f => f } = props;
+const Dialog = ({ children, isOpen, onClose }) => {
+  if (!isOpen) return null;
+
   return (
-    <div>
-      <h2>Dialog title</h2>
-      <p>Dialog content</p>
-      <button onClick={onClose}>Close</button>
+    <div className="dialog-overlay">
+      <div className="dialog">
+        <button className="close-button" onClick={onClose}>
+          &times;
+        </button>
+        {children}
+      </div>
     </div>
   );
-}
+};
 
 export default Dialog;
