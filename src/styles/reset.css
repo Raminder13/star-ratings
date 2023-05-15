@@ -30,7 +30,7 @@ html {
 
 body {
   height: 100%;
-  color: #fcfcfc;
+
   background-color: #14161d;
 }
 
@@ -46,10 +46,6 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
-}
-
-p {
-  font-size: 1.6rem;
 }
 
 p,

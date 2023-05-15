@@ -28,7 +28,7 @@ const StarRating = () => {
           </label>
         );
       })}
-      <h2>{rating === 0 ? 'Please select a rating' : rating < 3 ? 'Not good' : rating < 4 ? 'Good' : 'Excellent'}</h2>
+      <h2>{rating === 0 ? 'Please select a rating' : rating < 2 ? 'Not good': rating < 3 ? 'Okay'  : rating < 4 ? 'Good' : rating < 5 ? 'Great' : 'Excellent'}</h2>
     </div>
   );
 };
