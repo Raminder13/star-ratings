@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/index.css';
 
 const Dialog = ({ children, isOpen, onClose }) => {
   if (!isOpen) return null;

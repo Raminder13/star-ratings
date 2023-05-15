@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { FaStar } from 'react-icons/fa';
-import '../styles/index.css';
-
 const StarRating = () => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
